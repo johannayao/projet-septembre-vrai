@@ -35,7 +35,7 @@
     width: 500px;
     height: 600Px;
     background-color: yellow;
-    background: url(/image/enfin.webp);
+    background: url(../image/enfin.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
