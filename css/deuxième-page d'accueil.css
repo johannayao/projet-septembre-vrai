@@ -85,15 +85,16 @@ font-family: 'Quicksand', sans-serif;
 .navbar  ul {
     margin-top: 30px;
 }
-.btn-1{
+/* .btn-1{
     width: 130px;
     height: 42px;
     border-radius: 10px;
    margin-left: 8px;
-    background-color: white;
+    background-color: #005A87;
    margin-top: -8px;
-    border: 3px solid #37445C;
-}
+    border: 3px solid white;
+    color: white;
+} */
 .btn-1{
     font-size: 18px;
     /* color: black; */
@@ -366,11 +367,19 @@ input:checked + .slide-container .slide-image {
     margin-top: 10px;
     margin-top: 90px;
 }
+p{
+    color: none;
+}
 .bas-image h1{
     font-size: 39px;
     color: black;
      text-align: center;
+     
    
+}
+*{
+    text-decoration: none;
+    text-transform: none;
 }
 .koi{
     margin: 0 auto;
@@ -931,6 +940,30 @@ input:checked + .slide-container .slide-image {
   .footer-box h2{
     color: white;
   }
+  .wi{
+    margin-top: -7px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rebeccapurple;
+    border-radius: 50px;
+    background: url(../image/chou-removebg-preview.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .con{
+    background: url(../image/chou-removebg-preview.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #e9f8ff;
+    margin-left: 16px;
+    margin-top: -7px;
+  }
   @media screen and (max-width:640px){
     .box3{
         display: none;
@@ -943,21 +976,6 @@ input:checked + .slide-container .slide-image {
     } */
   }
 
-
-  .btn-1{
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-   margin-left: 8px;
-    background-color: #005A87;
-   margin-top: -8px;
-    border: 3px solid white;
-    color: white;
-}
-.btn-1{
-    font-size: 18px;
-    /* color: black; */
-}
   /* .con{
     width: 30px;
     height: 30px;
