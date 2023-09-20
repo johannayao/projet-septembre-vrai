@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/bud-previsionner.css">
+</head>
+<body>
+
+
+
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+            
+                <li><a  href="./deuxième-page-d'accueil.html" id="di">Accueil</a></li>
+                <li><a class="lala" href="./bud-previsionner.html" id="di">Budget previsionnel</a></li>
+                <li><a  href="./profil.html" id="di">profil</a></li>
+                <a href="../index.html"><button class="btn-1">Deconnexion</button></a>
+                <div class="con"></div>
+                <!-- <button class="btn-1"><a href="./HTML/connexion.html" id="hu">connexion</a></button>
+                <a href=""><button class="btn-1">inscription</button></a> -->
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+            <h1 class="logo"><img src="../assets/image/logo.png" alt="" width="100px"></h1>
+        </div>
+    </nav>
+        <div class="To-do-list">
+           <div class="hu"> <h1>Remplessez-le formulaire</h1></div>
+
+            <form id="formulaire">
+                
+
+                    <div class="box1">
+                        <div class="un">
+                            <label for="prixAchat">prix d'achat reserver pour la journee</label>
+                            <input required type="number" id="prixAchat" placeholder="prix d'achat reserver pour la journee">
+                         </div>
+          
+                          <div class="un">
+                              <label for="renduJournee">rendu de la journé</label>
+                              <input required  type="number" id="renduJournee" placeholder="rendu de la journé">
+                          </div>
+          
+                         <div class="un">
+                          <label for="perte">entrer les perte de la journé</label>
+                          <input required  type="number" id="perte" placeholder="entrer les perte de la journé">
+                         </div>
+                         <input  type="Submit" value="envoyer" class="lo">
+                    </div>
+
+                    <div class="box2">
+                        <div class="un">
+                            <label for="prixProduit">entrer les prix du produit</label>
+                            <input required  type="number" id="prixProduit" placeholder="entrer les prix du produit">
+                        </div>
+        
+                        <div class="un">
+                            <label for="benefice">entrer les benefice de la journee</label>
+                            <input required  type="number" id="benefice" placeholder="entrer les benefice de la journee">
+                        </div>
+        
+                        <div class="un">
+                            <label for="eppargne">entrer votre eppargne de la journee </label>
+                            <input required  type="number" id="eppargne" placeholder="entrer votre eppargne de la journee">
+                        </div>
+                    </div>
+
+                <!-- <div class="form_action--button"> -->
+                     
+                   <!-- <input type="Reset" value=" Reset"> 
+                    <button type="submit" id="boutton">envoyer</button>
+                    <button type="reset">renitialiser</button>-->
+                </div>
+            </form>
+
+            <!-- <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+            </td> -->
+
+        </div>
+
+
+        <div class="hum"><div class="grand"><h1>BUDGET PREVISIONNEL</h1></div>
+        <!-- <div class="case">
+            <div class="un"><p>RESPONSABLE: </p></div>
+            <div> <P>yao tchammein marie johanna</P></div> -->
+    
+        </div>
+     <div class="tout">
+        <table class="list" id="storelist">
+                
+                    <thead>
+                        <tr>
+                            <!-- <th>DATE </th> -->
+                           
+                            <th>PRIX D'ACHAT RESERVER POUR LA JOURNEE</th>
+                            <th>RENDU DE LA JOURNEE</th>
+                            
+                            <th>PERTE DE LA JOURNEE</th>
+                            <th>PRIX DUPRODUIT RESTANT</th>
+                            <th>BENEFICE DE LA JOURNEE</th> 
+                            <th>EPPARGNE</th>
+                            
+                            <th>action</th> 
+                            
+                        </tr>
+                    </thead>
+                    <tbody class="tbody"></tbody>
+                
+            <tbody></tbody>
+
+            <!-- <thead>
+                <tr>
+                    <td></td>
+                    <td></td> 
+                    
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Mardi</td>
+                    <td>50000fcf</td> 
+                    
+                    
+                    <td>40000fcf</td>
+                    <td>1000fcf</td>
+                    <td>1000fcf</td>
+                    <td>100000fcf</td>
+                    <td>2000Fcf</td>
+                    
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                    <td>60000fcf</td> 
+                   
+                    <td>60000fcf</td>
+                    <td>3000fcf</td>
+                    <td>2000fcf</td>
+                    <td>100000fcf</td>
+                    <td>2000Fcf</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                    <td>90000fcf</td> 
+                    
+                    <td>70000fcf</td>
+                    <td>0fcf</td>
+                    <td>4000fcf</td>
+                    <td>contenu</td>
+                    <td>2000Fcf</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                    <td>80000fcf</td> 
+                    
+                    <td>70000fcf</td>
+                    <td>2000fcf</td>
+                    <td>1000fcf</td>
+                    <td>100000fcf</td>
+                    <td>2000Fcf</td>
+                </tr>
+
+                <tr>
+                    <td>Samedi</td>
+                    <td>50000fcf</td> 
+                 
+                    <td>30000fcf</td>
+                    <td>15000fcf</td>
+                    <td>2000fcf</td>
+                    <td>100000fcf</td>
+                    <td>2000Fcf</td>
+                </tr>
+                <tr>
+                    <td>Dimanche</td>
+                    <td>90000fcf</td> 
+                    
+                    <td>90000fcf</td>
+                    <td>5000fcf</td>
+                    <td>contenu</td>
+                    <td>100000fcf</td>
+                    <td>1000fcf</td>
+                </tr>
+            </thead> -->
+    </table>  
+
+
+
+
+    <div class="footer" id="viva">
+        <a name="apropos" >ttuu</a>
+        <div class="footer-box">
+          <h2 class="si">a propos</h2>
+          <small>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</small>
+        </div>
+        <div class="footer-box">
+          <h2 class="si">contact</h2>
+          <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</small>
+        </div>
+        <div class="footer-box">
+          <h2 class="si">information</h2>
+          <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</small>
+        </div>
+
+        <div class="la">
+          <div class="lo">
+            
+            <p class="kaikai">nous suivre:
+                <!-- <div class="qui"></div> -->
+            </p>
+           
+            <div class="cons1">
+            <img src="../assets/image/facebook vraifacebook vraifacebook vrai.png" width="55px" alt="">
+            </div>
+            <div class="cons2">
+              <img src="../assets/image/instagra.png" width="25px" alt="">
+            </div>
+            <div class="cons3"><img src="../assets/image/google1.png" width="25px" alt=""></div>
+            <div class="cons4"><img src="../assets/image/fhum.png" width="25px" alt=""></div>
+          </div>
+        </div>
+      </div>  
+     </div>
+</body>
+<script src="../assets/javascript/bud-previsionner.js"></script>
+</html>
