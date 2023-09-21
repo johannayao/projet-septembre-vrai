@@ -116,21 +116,29 @@ const bouton = document.querySelector(".lo")
 formulaire.addEventListener("submit",(e)=>{
     e.preventDefault();
 })
+
+form = document.querySelector("form")
+form.addEventListener("submit", (e)=>{
+    e.preventDefault
+    let egale= renduJournee.value+perte.value
+    console.log(egale);
+})
 bouton.addEventListener("click" , (e)=>{
- const prixAchat = document.querySelector("#prixAchat");
+  const prixAchat = document.querySelector("#prixAchat");
   const  perte= document.querySelector("#perte");
   const prixProduit = document.querySelector("#prixProduit");
   const benefice = document.querySelector("#benefice");
   const eppargne = document.querySelector("#eppargne");
   const renduJournee = document.querySelector("#renduJournee");
+  
    
   let information ={
-    prixAchat: prixAchat.value,
-    perte : perte.value,
-    prixProduit: prixProduit.value,
-    benefice: benefice.value,
+    prixAchat: parseInt(prixAchat.value),
+    perte : parseInt(perte.value),
+    prixProduit: parseInt(prixProduit.value),
+    benefice:  parseInt(benefice.value),
     eppargne: eppargne.value,
-    renduJournee : renduJournee.value
+    renduJournee : parseInt(renduJournee.value)
   }
     let upBoutique = localStorage.getItem("boutique")
     upBoutique = JSON.parse(upBoutique)
