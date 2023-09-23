@@ -127,8 +127,8 @@ bouton.addEventListener("click" , (e)=>{
   const prixAchat = document.querySelector("#prixAchat");
   const  perte= document.querySelector("#perte");
   const prixProduit = document.querySelector("#prixProduit");
-  const benefice = document.querySelector("#benefice");
-  const eppargne = document.querySelector("#eppargne");
+//   const benefice = document.querySelector("#benefice");
+//   const eppargne = document.querySelector("#eppargne");
   const renduJournee = document.querySelector("#renduJournee");
   
    
@@ -136,8 +136,8 @@ bouton.addEventListener("click" , (e)=>{
     prixAchat: parseInt(prixAchat.value),
     perte : parseInt(perte.value),
     prixProduit: parseInt(prixProduit.value),
-    benefice:  parseInt(benefice.value),
-    eppargne: eppargne.value,
+    // benefice:  parseInt(benefice.value),
+    // eppargne: eppargne.value,
     renduJournee : parseInt(renduJournee.value)
   }
     let upBoutique = localStorage.getItem("boutique")
@@ -148,14 +148,14 @@ bouton.addEventListener("click" , (e)=>{
     information.id = upBoutique.length+1
     upBoutique.push( information)
      localStorage.setItem ("boutique",JSON.stringify(upBoutique))
-        window.location.reload();
+         window.location.reload();
     }
     else{
         upBoutique = [];
         information.id = upBoutique.length+1
         upBoutique.push(information)
         localStorage.setItem("boutique", JSON.stringify(upBoutique))
-        window.location.reload();
+         window.location.reload();
     }
 })
 
@@ -164,16 +164,19 @@ bouton.addEventListener("click" , (e)=>{
 function recupBoutique (table, len){
     let tbody = document.querySelector(".tbody");
     table.forEach(boutique => {
+        console.log( (boutique.prixAchat - (boutique.renduJournee + boutique.perte)) );
         let tout = `<tr id="${boutique.id}">
-            <td data-title="prixAchat">${boutique.prixAchat}</td>
-            <td data-title="perte">${boutique.perte}</td>
-            <td data-title="prixProduit">${boutique.prixProduit}</td>
-            <td data-title="benefice">${boutique.benefice}</td>
-            <td data-title="eppargne">${boutique.eppargne}</td>
-            <td data-title="renduJournee">${boutique.renduJournee}</td>
+            
+            <td data-title="prixAchat">${boutique.prixAchat} ${"Fcfa"}</td>
+            <td data-title="perte">${boutique.perte} ${"Fcfa"}</td>
+            <td data-title="prixProduit">${boutique.prixProduit}  ${"Fcfa"}</td>
+            <td data-title="benefice">${(boutique.prixAchat - (boutique.renduJournee + boutique.perte))} ${"Fcfa"}</td>
+            <td data-title="eppargne">${boutique.value/2} ${"Fcfa"}</td>
+            <td data-title="renduJournee">${boutique.renduJournee} ${"Fcfa"}</td>
             <td data-title="MODIFICATION" ><div class="chance"><i class="edite" id="delete-${boutique.id}">Modifier</i> <i class="delete" onclick="deleteItem(event)" id="delete-${boutique.id}">Supprimer</i></div></td>
         </tr>`;
         tbody.innerHTML += tout;
+        // console.log(prixProduit);
     });
 }
 

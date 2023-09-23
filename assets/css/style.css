@@ -85,19 +85,20 @@ font-family: 'Quicksand', sans-serif;
 .navbar  ul {
     margin-top: 30px;
 }
-.btn-1{
+/* .btn-1{
     width: 130px;
     height: 42px;
     border-radius: 10px;
    margin-left: 8px;
     background-color: white;
-   margin-top: -8px;
-    border: 3px solid #37445C;
-}
+   margin-top: 8px;
+    border: 3px solid #3C;
+} */
 .btn-1{
     font-size: 18px;
     /* color: black; */
 }
+
 
 a.lala{
     background-color: #e9f8ff;
@@ -364,21 +365,50 @@ input:checked + .slide-container .slide-image {
    /* background-color: red; */
     margin: 0 auto;
     margin-top: 10px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
+
 .bas-image h1{
-    font-size: 39px;
+    font-size: 28px;
     color: black;
      text-align: center;
+        box-shadow: 8px 8px #b2e4fd;
+    border: 3px solid #005A87;
+    width: 270px;
    
+    margin: 0 auto;
+    height: 60px;
 }
+
+
+.bos-image{
+    width: 100%;
+   /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-top: 100px;
+}
+
+.bos-image h1{
+    font-size: 22px;
+    color: black;
+     text-align: center;
+        box-shadow: 10px 10px #b2e4fd;
+    border: 3px solid #005A87;
+    width: 270px;
+   
+    margin: 0 auto;
+    height: 80px;
+}
+
+
 .koi{
     margin: 0 auto;
 }
 .bas-image p{
-    font-size: 28px;
+    font-size: 23px;
     color: black;
-    text-align: center;
+    
     margin-top: 15px;
 }
 
@@ -393,6 +423,7 @@ input:checked + .slide-container .slide-image {
     display: flex;
     
     justify-content: space-around;
+    
     width: 100%;
     height: auto;
    /* background-color: #37445C; */
@@ -403,8 +434,106 @@ input:checked + .slide-container .slide-image {
     flex-flow: wrap;
     margin-top: 50px;
   }
+
+
+
+
+
+
+
+
+
+
   .box h1{
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+    text-transform: uppercase;
+  }
+  .box p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .content{
+    width: 80%;
+    /* background-color: white; */
+    margin: 0 auto;
+  }
+  .che{
+    width: 60%;
+     /* background-color: black;  */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .la{
+   
+   
+    
+  }
+  .bix1{
+    text-align: center;
+   
+  }
+  .bix1 img{
+    margin-top: 20px;
+  }
+  .bix2 img{
+    margin-top: 20px;
+  }
+  .bix1 p{
+    color: white;
+    margin-top: 30px;
+  }
+  .bix2 p{
+    color: white;
+    margin-top: 30px;
+  }
+  .bix2{
+    text-align: center;
+  }
+  .che{
+        /* align-items: center;
+        justify-content: center; */
+  }
+.bix{
+    width: 25%;
+    height: 220px;
+    border: 3px solid #005A87;
+    
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    animation: ba 4s 0s ease-in-out infinite;
+   
+}
+@keyframes scale-up-center {
+			
+    0% {
+        transform:scale(.2);
+    }
+    100% {
+        transform:scale(1);
+    }
+
+
+}
+
+
+.contineur{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+  .box h1{
+    font-size: 20px;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -459,8 +588,8 @@ input:checked + .slide-container .slide-image {
         justify-content: center; */
   }
 .box{
-    width: 20%;
-    height: 230px;
+    width: 25%;
+    height: 210px;
     border: 3px solid #005A87;
     
     margin: 20px;
@@ -969,6 +1098,7 @@ input:checked + .slide-container .slide-image {
 }
 .btn-1{
     font-size: 18px;
+    text-align: center;
     /* color: black; */
 }
   /* .con{
@@ -982,7 +1112,7 @@ input:checked + .slide-container .slide-image {
     background-color: #e9f8ff;
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }
  .ta{
     width: 100%;
@@ -994,16 +1124,16 @@ input:checked + .slide-container .slide-image {
     margin-top: 50px;
  }
  .hein1{
-    width: 30%;
-    height: 390px;
+    width: 25%;
+    height: 370px;
     background-color: white;
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 5px  #005A87 ;
  }
  .hein2{
-    width: 30%;
-    height: 430px;
+    width: 25%;
+    height: 420px;
     /* background-color: #e9f8ff; */
     border-radius: 15px;
     /* background: linear-gradient(#005A87, #e9f8ff); */
@@ -1059,8 +1189,8 @@ input:checked + .slide-container .slide-image {
     text-align: center;
  }
  .hein3{
-    width: 30%;
-    height: 390px;
+    width: 25%;
+    height: 370px;
     background-color: #e9f8ff;
     margin-top: 30px;
     border-radius: 15px;
