@@ -24,7 +24,10 @@
                 <li><a class="lala" href="./bud-previsionner.html" id="di">Budget previsionnel</a></li>
                 <li><a  href="./profil.html" id="di">profil</a></li>
                 <a href="../index.html"><button class="btn-1">Deconnexion</button></a>
-                <div class="con"></div>
+                <!-- <div class="con"></div> -->
+                <div class="profile">
+                    <img src="" class="photo-profile" alt="" id="la">
+                </div>
                 <!-- <button class="btn-1"><a href="./HTML/connexion.html" id="hu">connexion</a></button>
                 <a href=""><button class="btn-1">inscription</button></a> -->
                 <!-- <li><a href="#">Contact</a></li> -->
@@ -39,18 +42,20 @@
                 
 
                     <div class="box1">
+                        
+                            
                         <div class="un">
-                            <label for="prixAchat">prix d'achat reserver pour la journee</label>
+                            <label for="prixAchat">Prix de Transaction effectué</label>
                             <input required type="number" id="prixAchat" placeholder="prix d'achat reserver pour la journee">
                          </div>
           
                           <div class="un">
-                              <label for="renduJournee">reste de la journé</label>
+                              <label for="renduJournee">Eppargne Efffectué</label>
                               <input required  type="number" id="renduJournee" placeholder="rendu de la journé">
                           </div>
           
                          <div class="un">
-                          <label for="perte">entrer les perte de la journé</label>
+                          <label for="perte">Depense Effectué</label>
                           <input required  type="number" id="perte" placeholder="entrer les perte de la journé">
                          </div>
                          <input  type="Submit" value="envoyer" class="lo">
@@ -62,15 +67,15 @@
                             <input required  type="number" id="prixProduit" placeholder="entrer les prix du produit">
                         </div>
         
-                        <!-- <div class="un">
-                            <label for="benefice">entrer les benefice de la journee</label>
-                            <input required  type="number" id="benefice" placeholder="entrer les benefice de la journee">
-                        </div> -->
+                         <div class="un">
+                            <label for="benefice">Date</label>
+                            <input required  type="date" id="benefice" placeholder="entrer les benefice de la journee">
+                        </div> 
         
-                        <!-- <div class="un">
-                            <label for="eppargne">entrer votre eppargne de la journee </label>
+                         <div class="un">
+                            <label for="eppargne">Total </label>
                             <input required  type="number" id="eppargne" placeholder="entrer votre eppargne de la journee">
-                        </div> -->
+                        </div> 
 
                         
                     </div>
@@ -109,13 +114,13 @@
                         <tr>
                              <!-- <th>DATE </th>  -->
                            
-                            <th>PRIX D'ACHAT RESERVER POUR LA JOURNEE</th>
-                            <th>RENDU DE LA JOURNEE</th>
+                            <th>Date</th>
+                            <th>Prix de transaction Effectué</th>
                             
-                            <th>PERTE DE LA JOURNEE</th>
-                            <th>PRIX DUPRODUIT RESTANT</th> 
-                            <th>BENEFICE DE LA JOURNEE</th> 
-                            <th>EPPARGNE</th>
+                            <th>Eppargne Effectué</th>
+                            <th>Depense Effectué</th> 
+                            <th>Perte</th> 
+                            <th>Total</th>
                             
                             <th>action</th> 
                             
@@ -242,4 +247,5 @@
      </div>
 </body>
 <script src="../assets/javascript/bud-previsionner.js"></script>
+<script src="../assets/javascript/bud-deux-previsionner.js"></script>
 </html>

@@ -20,13 +20,15 @@
             </div>
             <ul class="menu-items">
             
-                <li><a  href="../HTML/page2.html" id="di">Accueil</a></li>
-                <li><a href="../HTML/budjet provisionnel.html" id="di">Budget provisionnel</a></li>
+                <li><a  href="../corporates/page2.html" id="di">Accueil</a></li>
+                <li><a href="../corporates/bud-previsionner.html" id="di">Budget provisionnel</a></li>
                 <li><a class="lala" href="#" id="di">profil</a></li>
                 <a href="../index.html"><button class="btn-1">deconnexion</button></a> 
                 <!-- <div class="wi"></div> -->
                 <!-- <button class="btn-1"><a href="./HTML/connexion.html" id="hu">deconnexion</a></button> -->
-                <div class="con"></div> 
+                <div class="profile">
+                  <img src="" class="photo-profile" alt="" id="la">
+                </div> 
                 
                 <!-- <li><a href="#">Contact</a></li> -->
             </ul>
@@ -41,16 +43,20 @@
             <div class="box2">
                 <div class="fi">
                     <h1>Profil</h1>
-                    <p class="ki">NOM: YAO</p>
-                    <P class="ki">PRENOM:TCHAMMEIN MARIE JOHANNA</P>
-                    <P class="ki">ADDRESS: YAOJOHANNA@GMAIL.COM</P>
-                   <a href=""><button>modifier mes information</button ></a>
+                    <p class="ki">NOM: <span id="userNom"></span></p>
+                    <P class="ki">PRENOM: <span id="userPrenom"></span></P>
+                    <P class="ki">email: <span id="userEmail"></span></P>
+                    
+                   <a href="./modifier.html"><button class="koi">modifier mes information</button ></a>
                 </div>
             </div>
             <div class="modifier">
              
             </div>
-            <div class="cercle"></div>
+            <div class="profile">
+              <img src="" alt="" class="photo-profile" id="li">
+
+            </div>
             
         </div>
 
@@ -81,13 +87,13 @@
             </p>
            
             <div class="cons1">
-            <img src="../image/facebook vraifacebook vraifacebook vrai.png" width="55px" alt="">
+            <img src="../assets/image/facebook vraifacebook vraifacebook vrai.png" width="55px" alt="">
             </div>
             <div class="cons2">
-              <img src="../image/instagra.png" width="25px" alt="">
+              <img src="../assets/image/instagra.png" width="25px" alt="">
             </div>
-            <div class="cons3"><img src="../image/google1.png" width="25px" alt=""></div>
-            <div class="cons4"><img src="../image/fhum.png" width="25px" alt=""></div>
+            <div class="cons3"><img src="../assets/image/google1.png" width="25px" alt=""></div>
+            <div class="cons4"><img src="../assets/image/fhum.png" width="25px" alt=""></div>
           </div>
         </div>
       </div>  
@@ -100,7 +106,7 @@
 
 
 
-
+    <script src="../assets/javascript/profil.js"></script>
 
 </body>
 </html>

@@ -32,8 +32,8 @@ butIns.addEventListener('click', () =>{
       motDePass : motDePass 
    }
    
-   const isUser= table.find(user=>user.email===email);
-   if(!isUser) return alert("ce compte est dejà inscrit");
+   const isUser= tabUser.find(user=>user.email===email);
+   if(isUser) return alert("ce compte est dejà inscrit");
 
    tabUser.push(user)
    // window.location.reload()

@@ -10,10 +10,10 @@ form.addEventListener("submit", (e) => {
         const isUser= table.find(user=>user.email===email&&user.motDePass===password);
         if(!isUser) return alert("email ou mot de pass incorrect");
         let dataSession = {
-            email:email,
-            motDePass:password
+            email:email
+           
         }
-        localStorage.setItem("sessionRegistPlus", JSON.stringify(dataSession))
+        sessionStorage.setItem("sessionRegistPlus", JSON.stringify(dataSession))
         window.location.href="../../corporates/page2.html"
         console.log(isUser);
         

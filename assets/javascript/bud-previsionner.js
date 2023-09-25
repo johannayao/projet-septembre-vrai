@@ -142,7 +142,7 @@ bouton.addEventListener("click" , (e)=>{
   }
     let upBoutique = localStorage.getItem("boutique")
     upBoutique = JSON.parse(upBoutique)
-  
+    console.log(upBoutique)
 
   if(upBoutique != null){
     information.id = upBoutique.length+1
@@ -180,9 +180,9 @@ function recupBoutique (table, len){
     });
 }
 
-let allboutique=JSON.parse(localStorage.getItem("boutique"))
-console.log(allboutique)
-recupBoutique(allboutique, allboutique.length)
+let allboutique=JSON.parse(localStorage.getItem("boutique")) || []
+// console.log(allboutique)
+recupBoutique(allboutique, allboutique?.length)
 
 function deleteItem(e){
    let id = e.target.getAttribute("id");
@@ -193,11 +193,4 @@ function deleteItem(e){
    localStorage.setItem('boutique',JSON.stringify(filt))
    window.location.reload();
 }   
-
-
-
-
-
-
-
 

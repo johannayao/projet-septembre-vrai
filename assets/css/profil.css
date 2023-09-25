@@ -36,6 +36,45 @@ font-family: 'Quicksand', sans-serif;
     width: 90%;
     margin: auto;
 }
+.profile img{
+  width: 50px;
+}
+
+
+
+
+#la{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* position: absolute; */
+  /* left: 50px; */
+  background-color: #e9f8ff;
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-top: -9px;
+ 
+}
+#la img{
+  text-align: center;
+  margin-top: -150px;
+  position: relative;
+  top: -120px;
+}
+.koi{
+  margin-left: 70px;
+  margin-top: 19px;
+}
+ #li{
+  width: 110px;
+  height: 110px;
+  background-color: red;
+  border-radius: 50%;
+  border: 5px solid #005A87;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+ }
 
 .navbar{
     /* box-shadow: 0px 5px 10px 0px #aaa; */
@@ -459,14 +498,20 @@ p{
       width: 380px;
     }
     .cercle{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         margin-left: -30px;
         margin-top: 10px;
     }
+    #li{
+      width: 90px;
+      height: 90px;
+
+    }
+   
   }
 
-  @media screen and (max-width:392px) {
+  @media screen and (max-width:402px) {
     .content{
       width: 330px;
     }
@@ -477,6 +522,11 @@ p{
         margin-top: 10px;
     }
     
+    .koi{
+      width: 50%;
+      margin-left: 50px;
+      margin-top: -40px;
+    }
     .box2{
         width: 230px;
     }

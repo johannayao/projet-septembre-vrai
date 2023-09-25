@@ -10,6 +10,19 @@
     justify-content: center;
     margin-top: 30px;
 }
+
+#la{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* left: 50px; */
+    background-color: #e9f8ff;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: -9px;
+   
+  }
 .btn-1{
     width: 130px;
     height: 42px;
@@ -208,7 +221,7 @@ label{
 .al{
     /* text-align: center; */
 }
-.lo{
+.juie{
     text-align: center;
     border-radius: 10PX;
     padding: 7px;
@@ -277,9 +290,9 @@ input{
     height: 42px;
     border-radius: 10px;
    margin-left: 8px;
-    background-color: white;
+   
    margin-top: -8px;
-    border: 3px solid #37445C;
+    border: 3px solid white;
 }
 .btn-1{
     font-size: 18px;

@@ -1,0 +1,16 @@
+form{
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+    margin: 0 auto;
+   
+}
+.tout{
+    width: 80%;
+    background-color: red;
+    height: 590px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 30px;
+}
