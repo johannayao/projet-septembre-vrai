@@ -18,6 +18,29 @@ font-family: 'Quicksand', sans-serif;
 .log{
     margin-top: 20px;
 }
+.btn-4{
+    width: 170px;
+    height: 50px;
+    background-color: #005A87;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: white;
+    font-size: 20px;
+}
+#la{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* left: 50px; */
+    background-color: #e9f8ff;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: -9px;
+   
+  }
  body{
     /* background-color: #111827; */
     /* background-color: #00273b; */
