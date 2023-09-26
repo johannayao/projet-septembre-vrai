@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
            
         }
         sessionStorage.setItem("sessionRegistPlus", JSON.stringify(dataSession))
-        window.location.href="https://https://johannayao.github.io/projet-septembre-vrai/";
+        window.location.href="https:/https:/johannayao.github.io/projet-septembre-vrai/";
         //   window.location.href="../../corporates/page2.html";
         
         console.log(isUser);
