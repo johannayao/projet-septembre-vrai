@@ -102,14 +102,14 @@ form{
       margin-top: 40px;
     }
     .cui{
-     text-align: center;
+     /* text-align: center; */
      margin: 0 auto;
      width: 100%;
      height: auto;
      /* border: 2px solid black; */
     }
     .grand{
-        text-align: center;
+        /* text-align: center; */
         color: #005A87;
         
        }

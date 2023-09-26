@@ -805,7 +805,7 @@ input:checked + .slide-container .slide-image {
     
     width: 100%;
     height: 400px;
-    /* background: url(./image/istockphoto-500954400-612x612.jpg); */
+     background: url(./image/istockphoto-500954400-612x612.jpg); 
     background: url(/assets/image/istockphoto-500954400-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
