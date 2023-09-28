@@ -137,6 +137,7 @@ font-family: 'Quicksand', sans-serif;
     border: 3px solid white;
     color: white;
 }
+
 .btn-1{
     font-size: 18px;
     /* color: black; */
@@ -321,6 +322,7 @@ div.lala a:hover { color:inherit; }
      flex-flow: wrap;
        margin-top: 230px; 
       /* margin-top: 200Px; */
+     
   }
   .cons{
     width: 35px;
@@ -430,6 +432,11 @@ div.lala a:hover { color:inherit; }
   }
   .footer-box h2{
     color: white;
+  }
+  @media screen and (max-width:1300px){
+    .footer{
+      margin-top: 100px;
+    }
   }
 
 
