@@ -309,9 +309,6 @@ div.lala a:hover { color:inherit; }
 
 
 
-
-
-
 .footer{
     width: 100%;
     height: auto;
@@ -320,7 +317,8 @@ div.lala a:hover { color:inherit; }
     flex-direction: row;
      justify-content: center; 
      flex-flow: wrap;
-       margin-top: 230px; 
+     /* position: relative; */
+        margin-top: 230px;  
       /* margin-top: 200Px; */
      
   }
