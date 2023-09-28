@@ -105,17 +105,6 @@ console.log(allboutique);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function modifier (id){
+  
+}
