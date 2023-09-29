@@ -69,7 +69,7 @@
          console.log(boutique);
          tout += `<tr id="${boutique.index}">
          <td data-title="prixAchat">${boutique.prixAchat} ${"Fcfa"}</td>
-              <td data-title="benefice">${boutique.benefice} ${"Fcfa"}</td>
+              <td data-title="benefice">${boutique.renduJournee} ${"Fcfa"}</td>
               <td data-title="eppargne"> ${boutique.eppargne}${"Fcfa"}</td>
              <td data-title="prixProduit">${boutique.prixProduit}  ${"Fcfa"}</td>
              <td data-title="date">${boutique.date}</td>
