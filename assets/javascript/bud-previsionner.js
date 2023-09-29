@@ -74,7 +74,7 @@
              <td data-title="prixProduit">${boutique.prixProduit}  ${"Fcfa"}</td>
              <td data-title="date">${boutique.date}</td>
               <td data-title="renduJournee">${boutique.renduJournee} ${"Fcfa"}</td>
-              <td data-title="MODIFICATION" ><div class="chance"><i class="edite" id="delete-${boutique.index}">Modifier</i> <i class="delete" onclick="deleteItem(${boutique.index})">Supprimer</i></div></td>
+              <td data-title="MODIFICATION" ><div class="chance"><i class="edite" id="delete-${boutique.index}"></i><i class="delete" onclick="deleteItem(${boutique.index})">Supprimer</i></div></td>
          </tr>`;  
         
      });
